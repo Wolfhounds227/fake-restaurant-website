@@ -97,7 +97,7 @@ html {
 
 body{
 	width:100%;
-	background-color:white;
+	background-color:#3D9970;;
 }
 
 .site-header,
@@ -109,6 +109,16 @@ body{
 	bottom:40px;
 	width:100%;
 }
-
+@font-face {
+	font-family: 'Fascinate', cursive;
+	src: url(https://fonts.googleapis.com/css?family=Fascinate&display=swap);
+}
+.page_title{
+	font-family: 'Fascinate', cursive; 
+	
+}
+label {
+	font-weight:bold;
+}
 main {
 }
