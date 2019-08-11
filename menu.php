@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-  		<meta charset="utf-8">
-  		<meta name="viewport" content="width=device-width">
-        <title>Billy's Beef</title>
-      	<link rel="stylesheet" href="common.css" />
-      	<link rel="stylesheet" href="home.css" />
+   <?php
+include 'common.inc.php';
+?>
         <style>
           	@font-face {
 				font-family: 'Fascinate', cursive;
@@ -29,19 +24,15 @@
             footer { border-top: 1px solid black; text-align: center; }
             footer h3 { font-size: 1em; }
 			article h4 {font-size: 2em;}
-      	</style>
-        <script>
-      		
-      	</script>
+		</style>
   	</head>
     <body id="menu">
         <header>
-            <h1>Billy's Beef</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="menu.html">Menu</a>
-                <a href="contactus.html">Contact Us</a>
-          	</nav>
+<ul class="nav nav-tabs">
+  <li class="active"><a href="index.php">Home</a></li>
+  <li><a href="menu.php">Menu</a></li>
+  <li><a href="contactus.php">Contact Us</a></li>
+</ul>
       	</header>
         <main>
             <section>

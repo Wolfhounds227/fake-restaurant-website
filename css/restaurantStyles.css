@@ -4,10 +4,7 @@ Author: Ryan Server
 email: wolfhoundsdev@gmail.com
 
 NOTE: Be kind. Still learning.
-SECOND NOTE: I laid out the code of this website like the next person who would maintain it is a homicidal maniac.
-This was how I was taught when I first started programming. 
-If it seems like I went overboard structuring this code yes, yes I did.
-*/
+
 
 /*
 Table of Contents
@@ -84,8 +81,14 @@ th {
 .primary-nav a {
   /* color: #fff; */
   text-decoration: none;
+  margin:10px;
 }
-
+.primary-nav a:visisted {
+	color:green;
+}
+.primary-nav a:hover {
+	font-weight:bold;
+}
 /* -- layout --*/
 
 

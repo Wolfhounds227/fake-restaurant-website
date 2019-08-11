@@ -1,23 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Billy's Restuarant</title>
-<link rel="stylesheet" type="text/css" href="css/restaurantStyles.css">
+<?php
+include 'common.inc.php';
+?>
 <style>
 a {margin:15px;}
 div {margin:15px;}
+footer {margin:105px;}
 </style>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
 </head>
+
 <body>
 <center> <h1 class="page_title">Billys Beef</h1> </center>
 <hr />
 <nav class="primary-nav">
-<a href="index.html">Home</a> 
+<a href="index.php">Home</a> 
 
-<a href="menu.html">Menu</a>
-<a href="contactus.html">Contact Us</a>
+<a href="menu.php">Menu</a>
+<a href="contactus.php">Contact Us</a>
 </nav>
 <hr />
 <center>
