@@ -5,123 +5,48 @@ email: wolfhoundsdev@gmail.com
 
 NOTE: Be kind. Still learning.
 
-
-/*
-Table of Contents
-  =01 Reset/Global Defaults
-  =02 Typography
-  =03 Nav
-  =04 Layout
-  */
-
-/*
-Colors
-TODO colors mate.
-
 */
-
-/***** =01 Reset/Global Defaults *****/
-
-* {
-	/* see https://css-tricks.com/box-sizing/ */
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-
-  margin: 0;
-  padding: 0;
-
-  font-family: inherit;
-  line-height: inherit;
-  color: inherit;
-}
-
-/*
-  For absolutely positioning elements within containers
-*/
-div, article, section, header, footer, nav, ul, li { position: relative ; } /* <================================= */
-
-p { 
-	margin:30px; 
-	padding-right: 480px;
-	padding-left: 480px;
-	display: inline-block;
-	text-align:left;
-}
 
 /***** =02 Typography *****/
 
-body{
-	font-family: Arial;
-  font-size: 15px;
-  color: #333;
+.bbody{
+font-family: Arial !important;
+  font-size: 15px !important;
+  background-color: silver
  
 }
-hr {
-}
-table {
-	width:100%;
-}	
-th {
-	height:100%;
-}
+
 /*** PRIMARY NAVIGATION MENU ***/
 /* -- presentation --*/
-.primary-nav {
-  font-size: 80%;
-  text-transform: uppercase;
-  z-index: 1000;
-}
-	
-.primary-nav,
-.primary-nav li {
-  background:white;
-}
-
-.primary-nav a {
-  /* color: #fff; */
-  text-decoration: none;
-  margin:10px;
-}
-.primary-nav a:visisted {
-	color:green;
-}
-.primary-nav a:hover {
-	font-weight:bold;
-}
 /* -- layout --*/
 
 
 /***** =04 Layout *****/
 
-html {
-	
-}
 
-body{
-	width:100%;
-	background-color:#C5C6C7;
+h4, h2{
+	font-weight:bold !important;
 }
-
 .site-header,
 .site-footer {
 
 }
-.site-footer {
-	position:absolute;
-	bottom:40px;
-	width:100%;
+
+.site-footer1 {
+	font-family: Arial;
+	font-size: 1em; 
+	position:absolute !important;
+	bottom:40px !important;
+	width:100% !important;
+	border-top: 1px solid black;
+	text-align: center;
 }
 @font-face {
 	font-family: 'Fascinate', cursive;
 	src: url(https://fonts.googleapis.com/css?family=Fascinate&display=swap);
 }
 .page_title{
-	font-family: 'Fascinate', cursive; 
+	font-family: 'Fascinate', cursive;
+	text-align:center;
 	
-}
-label {
-	font-weight:bold;
-}
-main {
 }

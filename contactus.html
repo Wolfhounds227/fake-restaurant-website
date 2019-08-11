@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Billy's Restuarant</title>
-<link rel="stylesheet" type="text/css" href="css/restaurantStyles.css">
-<style>
-a {margin:15px;}
-div {margin:15px;}
-</style>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+		<style>
+		@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+         <link rel="stylesheet" type="text/css" href="css/restaurantStyles.css">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>
-<center> <h1 class="page_title">Billys Beef</h1> </center>
-<hr />
-<nav class="primary-nav">
-<a href="index.html">Home</a> 
 
-<a href="menu.html">Menu</a>
-<a href="contactus.html">Contact Us</a>
-</nav>
-<hr />
+<body class="bbody">
+<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<h1 class="page_title">Billys Beef</h1>
+<div class="container">
+<ul class="nav nav-pills">
+  <li class="nav-item"><a class="nav-link"  href="index.html"><i class="fas fa-home"></i></a></li>
+  <li class="nav-item"><a class="nav-link" href="bootstrapmenu.html" >Menu</a></li>
+  <li class="nav-item"><a class="nav-link acive" href="contactus.html">Contact Us</a></li>
+</ul>
 <center>
 <form>
 <div class="uinputtext">
@@ -45,35 +48,35 @@ div {margin:15px;}
 </div>
 <div id="radiobtn">
 <label for="radio1" style="margin-right: 5px;" id="radio1">Have you been to the restaurant?</label>
-    <input id="yes" type="radio" name="hasbeenYes" value="yes" />	
+    <input id="yes" type="radio" name="hasbeenYes" value="yes" />
 	<label for="yes">Yes </label>
-	<input id="no" type="radio" name="hasbeenNo" value="no" />	
+	<input id="no" type="radio" name="hasbeenNo" value="no" />
 	<label for="no">No </label>
 </div>
 <div id="best_contact_day">
 <label>Best way to contact you?</label>
 <label>
-<input type="checkbox" name= "contactdays" 
+<input type="checkbox" name= "contactdays"
 value= "contact days" />
  Monday</label>
  <label>
-<input type="checkbox" name= "contactdaysM" 
+<input type="checkbox" name= "contactdaysM"
 value= "M" />
  M</label>
  <label>
-<input type="checkbox" name= "contactdaysT" 
+<input type="checkbox" name= "contactdaysT"
 value= "T" />
  T</label>
  <label>
-<input type="checkbox" name= "contactdaysW" 
+<input type="checkbox" name= "contactdaysW"
 value= "W" />
  W</label>
  <label>
-<input type="checkbox" name= "contactdaysTH" 
+<input type="checkbox" name= "contactdaysTH"
 value= "W" />
  TH</label>
 <label>
-<input type="checkbox" name= "contactdaysF" 
+<input type="checkbox" name= "contactdaysF"
 value= "W" />
  F</label>
  </div>
@@ -82,12 +85,12 @@ value= "W" />
  </div>
 </form>
 </center>
+        <footer class="site-footer1">
+            <h3>12345 dream lane, Eagan, Wisconsin, 99999</h3>
+            <h3>123-456-7890</h3>
+      	</footer>
+
 </body>
 
-<footer class="site-footer">
-<hr id="bottom" />
-<center>12345 dream lane, Eagan, Wisconsin, 99999</center>
-<center>123-456-7890</center>
-</footer>
-
+</div>
 </html>
